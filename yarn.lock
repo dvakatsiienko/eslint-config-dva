@@ -519,11 +519,6 @@ eslint-config-airbnb@18.2.1:
     object.assign "^4.1.2"
     object.entries "^1.1.2"
 
-eslint-config-dva@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-dva/-/eslint-config-dva-0.0.3.tgz"
-  integrity sha512-4V6t5C7oGcNRgxskySVcuWhFwSegMaBYoI+J0VAsCigXe2qdgxq75vSp01PCCID7ZEBU2HzNleR5RjVT6zQZRg==
-
 eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
   resolved "https://registry.npmjs.org/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.4.tgz"
