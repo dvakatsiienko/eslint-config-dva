@@ -13,7 +13,7 @@ The config is an extension of **eslint-config-airbnb** and intended for **TypeSc
 
 ### Usage
 
-Installation script:
+Install all the required packages using the following script:
 
 **yarn**
 
@@ -24,5 +24,5 @@ yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin es
 **npm**
 
 ```sh
-npm install -D @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb eslint-config-dva eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import eslint-plugin-jsx-a11y
+npm install -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb eslint-config-dva eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import eslint-plugin-jsx-a11y
 ```

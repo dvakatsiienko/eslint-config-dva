@@ -1,19 +1,19 @@
 module.exports = {
-    root: true,
+    root:   true,
     parser: '@typescript-eslint/parser',
-    env: {
-        es2021: true,
-        browser: true,
-        node: true,
+    env:    {
+        es2021:                true,
+        browser:               true,
+        node:                  true,
         'shared-node-browser': true,
     },
     globals: {
-        __ENV__: 'readonly',
-        __DEV__: 'readonly',
+        __ENV__:  'readonly',
+        __DEV__:  'readonly',
         __TEST__: 'readonly',
         __PROD__: 'readonly',
     },
-    plugins: ['react', 'react-hooks'],
+    plugins: [ 'react', 'react-hooks' ],
     extends: [
         'eslint:recommended',
         'airbnb',
@@ -30,34 +30,34 @@ module.exports = {
 
         // ? import
         'import/prefer-default-export': 0,
-        'import/no-unresolved': 0,
-        'import/extensions': 0,
-        'import/order': [
+        'import/no-unresolved':         0,
+        'import/extensions':            0,
+        'import/order':                 [
             2,
             {
                 groups: [
                     'builtin',
                     'external',
-                    ['internal', 'index', 'sibling', 'parent'],
+                    [ 'internal', 'index', 'sibling', 'parent' ],
                 ],
             },
         ],
 
         // ? React: core
-        'react/destructuring-assignment': 0,
+        'react/destructuring-assignment':      0,
         'react/function-component-definition': [
             2,
             {
-                namedComponents: 'arrow-function',
+                namedComponents:   'arrow-function',
                 unnamedComponents: 'arrow-function',
             },
         ],
-        'react/prefer-stateless-function': 2,
-        'react/prop-types': 0,
-        'react/react-in-jsx-scope': 0,
-        'react/no-array-index-key': 0,
-        'react/no-unescaped-entities': 0,
-        'react/no-typos': 1,
+        'react/prefer-stateless-function':     2,
+        'react/prop-types':                    0,
+        'react/react-in-jsx-scope':            0,
+        'react/no-array-index-key':            0,
+        'react/no-unescaped-entities':         0,
+        'react/no-typos':                      1,
         'react/void-dom-elements-no-children': 1,
 
         // ? React: JSX
@@ -66,22 +66,22 @@ module.exports = {
             'always',
             { spacing: { objectLiterals: 'never' } },
         ],
-        'react/jsx-equals-spacing': [1, 'always'],
-        'react/jsx-indent': [
+        'react/jsx-equals-spacing': [ 1, 'always' ],
+        'react/jsx-indent':         [
             1,
             4,
             { checkAttributes: true, indentLogicalExpressions: true },
         ],
-        'react/jsx-filename-extension': [2, { extensions: ['.js', '.tsx'] }],
-        'react/jsx-indent-props': [1, 4],
-        'react/jsx-no-useless-fragment': 2,
-        'react/jsx-props-no-spreading': 0,
+        'react/jsx-filename-extension':      [ 2, { extensions: [ '.js', '.tsx' ] }],
+        'react/jsx-indent-props':            [ 1, 4 ],
+        'react/jsx-no-useless-fragment':     2,
+        'react/jsx-props-no-spreading':      0,
         'react/jsx-one-expression-per-line': 0,
-        'react/jsx-sort-props': [
+        'react/jsx-sort-props':              [
             1,
             {
                 shorthandFirst: true,
-                callbacksLast: true,
+                callbacksLast:  true,
             },
         ],
 
@@ -89,32 +89,32 @@ module.exports = {
         'react-hooks/rules-of-hooks': 2,
 
         // ? React: JSX-a11y
-        'jsx-a11y/accessible-emoji': 0,
+        'jsx-a11y/accessible-emoji':  0,
         'jsx-a11y/img-redundant-alt': 0,
-        'jsx-a11y/anchor-is-valid': 0,
+        'jsx-a11y/anchor-is-valid':   0,
 
         // ? ESLint: possible errors
-        'no-console': 0,
+        'no-console':                  0,
         'no-template-curly-in-string': 0,
-        'no-unreachable': 2,
+        'no-unreachable':              2,
 
         // ? ESLint: best practices
         'array-callback-return': 1,
-        'consistent-return': 0,
-        'default-case': 2,
-        'default-case-last': 2,
+        'consistent-return':     0,
+        'default-case':          2,
+        'default-case-last':     2,
         // 'default-param-last':    1,
-        'no-alert': 0,
-        'no-eq-null': 2,
-        'no-param-reassign': 0,
-        'no-void': 0,
-        radix: [1, 'as-needed'],
-        'wrap-iife': 1,
+        'no-alert':              0,
+        'no-eq-null':            2,
+        'no-param-reassign':     0,
+        'no-void':               0,
+        radix:                   [ 1, 'as-needed' ],
+        'wrap-iife':             1,
 
         // ? ESLint: variables
-        'no-delete-var': 1,
+        'no-delete-var':         1,
         'no-restricted-globals': 0,
-        'no-use-before-define': 0,
+        'no-use-before-define':  0,
 
         // ? ESLint: stylistic issues
         'array-bracket-spacing': [
@@ -122,39 +122,39 @@ module.exports = {
             'always',
             {
                 objectsInArrays: false,
-                arraysInArrays: false,
+                arraysInArrays:  false,
             },
         ],
         'comma-dangle': [
             2,
             {
-                imports: 'never',
-                exports: 'never',
-                arrays: 'always-multiline',
-                objects: 'always-multiline',
+                imports:   'never',
+                exports:   'never',
+                arrays:    'always-multiline',
+                objects:   'always-multiline',
                 functions: 'always-multiline',
             },
         ],
-        'computed-property-spacing': [2, 'always'],
-        'func-style': [2, 'declaration', { allowArrowFunctions: true }],
-        indent: [1, 4, { SwitchCase: 1 }],
-        'jsx-quotes': [2, 'prefer-single'],
-        'key-spacing': [
+        'computed-property-spacing': [ 2, 'always' ],
+        'func-style':                [ 2, 'declaration', { allowArrowFunctions: true }],
+        indent:                      [ 1, 4, { SwitchCase: 1 }],
+        'jsx-quotes':                [ 2, 'prefer-single' ],
+        'key-spacing':               [
             2,
             { beforeColon: false, afterColon: true, align: 'value' },
         ],
         'max-len': [
             1,
             {
-                tabWidth: 4,
-                code: 100,
-                ignoreComments: true,
-                ignoreUrls: true,
-                ignoreStrings: true,
+                tabWidth:               4,
+                code:                   100,
+                ignoreComments:         true,
+                ignoreUrls:             true,
+                ignoreStrings:          true,
                 ignoreTemplateLiterals: true,
             },
         ],
-        'no-plusplus': 0,
+        'no-plusplus':          0,
         'no-restricted-syntax': [
             2,
             {
@@ -174,12 +174,12 @@ module.exports = {
             },
         ],
         'no-underscore-dangle': 0,
-        'object-curly-spacing': [2, 'always'],
-        quotes: [2, 'single'],
+        'object-curly-spacing': [ 2, 'always' ],
+        quotes:                 [ 2, 'single' ],
 
         // ? ESLint: ECMAScript 6
         'arrow-body-style': 0,
-        'arrow-parens': [2, 'as-needed'],
-        'prefer-const': 1,
+        'arrow-parens':     [ 2, 'as-needed' ],
+        'prefer-const':     1,
     },
 };
