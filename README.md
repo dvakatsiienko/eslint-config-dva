@@ -33,3 +33,13 @@ yarn add -D eslint eslint-config-dva @typescript-eslint/parser @typescript-eslin
 ```sh
 npm install -D eslint eslint-config-dva @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import
 ```
+
+### Usage
+
+Add the following to your `eslintrc.js`:
+
+```js
+module.exports = {
+    extends: 'dva'
+};
+```
