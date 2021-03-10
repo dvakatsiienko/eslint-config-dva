@@ -6,7 +6,7 @@ This package provides Dima Vakatsiienko's (dva) **ESLint** config as an extensib
 
 The config is an extension of **[eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)** and intended for **[TypeScript](https://www.typescriptlang.org/)** projects.
 
-**The following plugins are included**:
+**The following ESLint plugins are included**:
 
 -   [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin)
 -   [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules)
@@ -16,7 +16,7 @@ The config is an extension of **[eslint-config-airbnb](https://github.com/airbnb
 
 Also, the config is dependent on the [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser).
 
-All the required dependencies are included in the installation script below.
+> All the required dependencies are included in the installation script below.
 
 ### Usage
 
