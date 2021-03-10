@@ -4,5 +4,20 @@
     "repository": "git@github.com:dvakatsiienko/eslint-config-dva.git",
     "author": "Dima Vakatsiienko <imagnum.satellite@gmail.com>",
     "license": "MIT",
-    "main": "index.js"
+    "main": "index.js",
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "eslint-config-dva"
+    ],
+    "peerDependencies": {
+        "eslint": ">= 7",
+        "@typescript-eslint/parser": "4.17.0",
+        "@typescript-eslint/eslint-plugin": "4.17.0",
+        "eslint-plugin-react": "7.22.0",
+        "eslint-plugin-react-hooks": "4.2.0",
+        "eslint-plugin-jsx-a11y": "6.4.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-config-airbnb": "18.2.1"
+    }
 }
