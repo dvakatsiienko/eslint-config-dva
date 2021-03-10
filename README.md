@@ -18,7 +18,7 @@ Also, the config is dependent on the [@typescript-eslint/parser](https://github.
 
 > All the required dependencies are included in the installation script below.
 
-### Usage
+### Install
 
 Install all the required packages using the following script:
 
