@@ -1,0 +1,8 @@
+{
+    "name": "eslint-config-dva",
+    "version": "0.0.1",
+    "repository": "git@github.com:dvakatsiienko/eslint-config-dva.git",
+    "author": "Dima Vakatsiienko <imagnum.satellite@gmail.com>",
+    "license": "MIT",
+    "main": "index.js"
+}
