@@ -13,6 +13,7 @@ The config is an extension of **[eslint-config-airbnb](https://github.com/airbnb
 -   [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks)
 -   [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
 -   [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+-   [eslint-plugin-align-import](https://github.com/Simonwep/eslint-plugin-align-import)
 
 Also, the config is dependent on the [@typescript-eslint/parser](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/parser).
 
@@ -25,13 +26,13 @@ Install all the required packages using the following script:
 **yarn**
 
 ```sh
-yarn add -D eslint eslint-config-dva @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import
+yarn add -D eslint eslint-config-dva @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-align-import
 ```
 
 **npm**
 
 ```sh
-npm install -D eslint eslint-config-dva @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import
+npm install -D eslint eslint-config-dva @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-airbnb eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-align-import
 ```
 
 ### Usage

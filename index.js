@@ -13,7 +13,7 @@ module.exports = {
         __TEST__: 'readonly',
         __PROD__: 'readonly',
     },
-    plugins: [ 'react', 'react-hooks' ],
+    plugins: [ 'align-import', 'react', 'react-hooks' ],
     extends: [
         'eslint:recommended',
         'airbnb',
@@ -27,6 +27,9 @@ module.exports = {
     rules: {
         // ? TypeScript-ESLint
         '@typescript-eslint/explicit-module-boundary-types': 0,
+
+        // ? align-import
+        'align-import/align-import': 2,
 
         // ? import
         'import/prefer-default-export': 0,
@@ -103,13 +106,16 @@ module.exports = {
         'consistent-return':     0,
         'default-case':          2,
         'default-case-last':     2,
-        // 'default-param-last':    1,
         'no-alert':              0,
         'no-eq-null':            2,
-        'no-param-reassign':     0,
-        'no-void':               0,
-        radix:                   [ 1, 'as-needed' ],
-        'wrap-iife':             1,
+        'no-multi-spaces':       [
+            'error', // ? Required for eslint-plugin-align-import to work
+            { exceptions: { ImportDeclaration: true } },
+        ],
+        'no-param-reassign': 0,
+        'no-void':           0,
+        radix:               [ 1, 'as-needed' ],
+        'wrap-iife':         1,
 
         // ? ESLint: variables
         'no-delete-var':         1,
